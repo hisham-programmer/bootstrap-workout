@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+<!--Navbar-->    
+<div class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand fst-italic fw-bold fs-5" href="#home">Taskflow</a>
+        <button class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse"><span class="navbar-toggler-icon"></span></button>
+        <div id="navbar" class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#Features" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+  </div>
+  <!--Hero Section-->
+  <section id="home" class="hero text-center py-5 bg-info">
+    <div class="container py-5">
+        <h1 class="display-4 fw-bold">Plan Your work. Finish it faster.</h1>
+        <p class=" lead my-4">TaskFlow helps you organize tasks,set reminders,and track progress in one place.</p>
+        <a href="#contact" class="btn btn-light btn-lg">Get Started</a>
+        <a href="#Features" class="btn btn-dark btn-lg">Learn More</a>
+    </div>
+  </section>
+  <!--Features-->
+  <div id="Features" class="container">
+    <h2 class="text-center my-5">Features</h2>
+    <div class="row g-4 ">
+        <div class=" col-12 col-md-4 ">
+            <div class="card h-100 text-center shadow-sm" style="width:250px">
+                <img src="../assets/Tick.webp" alt="" class="card-img-top">
+                <div class="card-body p-4">
+                    <h2 class="card-title">Task Lists</h2>
+                    <p class="card-text">Create,edit,and complete tasks in a clean and simple list.</p>
+                </div>
+            </div>
+        </div>
+                <div class="col-12 col-md-4">
+            <div class="card h-100 text-center shadow-sm" style="width:250px">
+                <img src="../assets/reminder.jpg" alt="" class="card-img-top" >
+                <div class="card-body p-4">
+                    <h2 class="card-title">Reminders</h2>
+                    <p class="card-text">Set due daters and need not to miss deadline.</p>
+                </div>
+            </div>
+        </div>
+                <div class="col-12 col-md-4">
+            <div class="card h-100 text-center shadow-sm" style="width:250px">
+                <img src="../assets/Progress-icon.jpg" alt="" class="card-img-top" >
+                <div class="card-body p-4">
+                    <h2 class="card-title">Progress Tracking</h2>
+                    <p class="card-text">See how much task finished by using visual summaries.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!--About-->
+    <div id="About" class="row g-4 my-4" style="background-color:lightgray;">
+        <div class="col-12 col-md-6">
+            <div class="text-white bg-primary fs-4 text-center p-4 m-4 rounded shadow">
+                DashBoard Preview
+            </div>  
+        </div>
+        <div class="col-12 col-md-6 p-3">
+            <h2>About TaskFlow </h2>
+            <p>TaksFlow is built for students and Professionals who want a simple way to manage their day.</p>
+            <ul>
+                <li>Easy to learn in minutes</li>
+                <li>Works on mobile and Desktop</li>
+                <li>Free to start </li>
+            </ul>
+        </div>
+    </div>
+    <!--Contact-Form -->
+    
+    <div id="contact" class="row justify-content-center">
+        <h2   class="text-center">Get in Touch</h2>
+        <div class="col-12 col-md-8 col-lg-6">
+            <form action="">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-control">
+                    <label for="name" class="form-label">Email</label>
+                    <input type="text" id="name" class="form-control">
+                    <label for="Message" class="form-label">Message</label>
+                    <textarea name="Message" id="Messsage" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary m-3 px-3 justify-content-center">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="text-white bg-dark text-center py-3">
+        <p mb-0> &copy; 2026 TaskFlow. All rights reserved</p>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
